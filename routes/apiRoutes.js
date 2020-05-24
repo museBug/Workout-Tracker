@@ -21,8 +21,6 @@ module.exports = function (app) {
             })
     });
 
-    //Put request
-
     app.put("/api/workouts/:id", ({ body, params }, res) => {
         Workout.findByIdAndUpdate(
             params.id,
@@ -35,18 +33,4 @@ module.exports = function (app) {
                 res.json(err)
             })
     });
-
-  
-        //Get Range Request
-
-        app.get("/api/workouts/range", (req,res) => {
-        Workout.find({})
-        .then(data => {
-        res.json(data);
-        })
-        .catch(err => {
-        res.json(err);
-        });
-        });
-
 }
