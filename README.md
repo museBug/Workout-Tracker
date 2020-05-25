@@ -14,7 +14,7 @@ The user should be able to:
   * View multiple the combined weight of multiple exercises on the `stats` page.
 
 
-## Deployed app: 
+## Deployed app:  https://whispering-coast-44427.herokuapp.com/
             
 ## Table of Contents
             
@@ -26,11 +26,11 @@ The user should be able to:
             
 **Step 1 - Clone my repo using the command line below.**
 ```
-git clone https://github.com/dsarra1018/Project2.git
+git clone https://github.com/Antidetka/Workout-Tracker
 ```
 **Step 2 - Change directory to the cloned repo folder.**
 ```
-cd Project2
+cd Workout-Tracker
 ```
 **Step 3 - Install all required NPM packages.**
 ```
